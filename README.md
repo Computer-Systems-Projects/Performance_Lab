@@ -1,4 +1,6 @@
 # Lab 4 - Code Optimization
+#My results
+reduced CPE to 16, showing a massive increase in performance utilizing loop unrolling with separate accumalators, resizing data, optimizing data for cache performance, and reducing function calls inside of loops.
 ## Introduction
 This assignment deals with optimizing memory intensive code. Image processing offers many examples of functions that can benefit from optimization. In this lab, you’ll be improving the overall performance of an “image processing” application by a factor of about 25 – an extra credit phase will challenge you do increase the speed further. In the past, some students have sped up the code by a factor of 200-300. The score you receive for the "performance" portion of the lab depends on the score returned by the **Judge** script with the filters for the default image (blocks-small.bmp). Your code **must** function correctly for each filter and can be tested using `make test`
 
